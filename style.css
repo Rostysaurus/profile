@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  font-family: 'Courier Prime', monospace;
+  background-color: #FBFAFA;
+  color: #0E120B;
+}
+.img-small {
+  width: 150px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+p {
+  color: rgb(83, 81, 81);
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+
+.container {
+  width: 600px;        /* Set the width */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  padding: 60px;
+  margin: 20px 0px;                           /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.btn-red {
+  padding: 15px 20px;
+  text-decoration: none;
+  background-color: #DD422B;
+  color: white;
+  padding: 15px 15px;
+  border-radius: 5px;
+}
+.btn-red:hover {
+  /* opacity: .8; */
+  background-color: #0E120B;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.list-inline li{
+  display: inline;
+}
+
+.list-inline i {
+  padding: 10px;
+  font-size: 50px;
+  color: #b6b3b3;
+}
+
+.list-inline i:hover {
+  /* opacity: .8; */
+  color: #0E120B;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+.card-white{
+  margin: 20px -35px;
+}
+}
